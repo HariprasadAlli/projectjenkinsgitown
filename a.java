@@ -1,0 +1,5 @@
+sudo apt-get purge jenkins
+sudo apt-get install jenkins
+sudo -E add-apt-repository ppa:openjdk-r/ppa
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
